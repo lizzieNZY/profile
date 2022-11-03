@@ -24,7 +24,7 @@ a:hover {
 .card {
   background-color: rgb(100 100 100 / 66%);
   border-radius: 20px;
-  margin: 115px;
+  margin-bottom: 24px;
   padding: 60px;
   text-align: center;
 }
@@ -34,8 +34,16 @@ ul {
 }
 
 .list-inline li {
-  display: inline;
+  display: inline-block;
   padding: 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
@@ -53,6 +61,6 @@ ul {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 100%;
   }
 }
